@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-color: #ededed;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+.App-header {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+}
+
+.App-title {
+  font-size: 4rem;
+  border: dotted yellow 1.5rem;
+  padding: 2rem;
+  font-family: 'Actor', sans-serif;
+}
+
+#card{
+  border: solid grey;
+  width: 40rem;
+  margin: 2rem auto 0rem auto;
+  background-color: white;
+}
+
+/*Movie Title*/
+h2{
+  background: #cccccc;
+  text-align: left;
+  padding: .6rem;
+  margin-top: 0rem;
+}
+
+img{
+  margin-top: 2rem;
+}
+
+/*UL of movie info*/
+#movieInfo{
+  list-style-type: none;
+  line-height: 200%;
+  padding: 1rem;
+
+}
+
+li{
+  line-height: 80%;
+  display: inline;
+}
+
+hr{
+  width: 15rem;
+}
+

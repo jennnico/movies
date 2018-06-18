@@ -4,12 +4,14 @@
   font-family: 'Pontano Sans', sans-serif;
 }
 
+/*Black banner*/
 .App-header {
   background-color: black;
   padding: 1rem;
   color: white;
 }
 
+/*Movie Cards*/
 .App-title {
   font-size: 4rem;
   border: dotted yellow 1.5rem;
@@ -17,9 +19,11 @@
   font-family: 'Actor', sans-serif;
 }
 
+/*individual cards */
 #card{
   border: solid grey;
-  width: 40rem;
+  min-width: 40rem;
+  max-width: 65rem;
   margin: 2rem auto 0rem auto;
   background-color: white;
 }
@@ -30,26 +34,42 @@ h2{
   text-align: left;
   padding: .6rem;
   margin-top: 0rem;
+  padding-left: 1rem;
 }
 
+/*image*/
 img{
-  margin-top: 2rem;
+  margin: 2rem 0rem 2rem 0rem;
 }
 
-/*UL of movie info*/
+/*Right-hand column*/
 #movieInfo{
   list-style-type: none;
   line-height: 200%;
   padding: 1rem;
-
 }
 
-li{
-  line-height: 80%;
-  display: inline;
+/*Movie Info: headings*/
+.item{
+  font-weight: bold;
+  text-align: right;
 }
 
-hr{
-  width: 15rem;
+/*Movie Info: content*/
+.info{
+  text-align: left;
 }
+
+/*Released header and Released Date*/
+#top, #top2{
+  border-top-color: white;
+}
+
+/*Ratings Content*/
+#ratings{
+  line-height: 90%
+}
+
+
+
 
